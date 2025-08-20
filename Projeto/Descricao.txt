@@ -1,1 +1,25 @@
-Nessa pasta usaremos para o projeto
+Projeto 1 - Agregador musical
+
+O sistema consiste em um organizador musical baseado na ideia de álbuns, no qual os usuários podem escolher 
+seus álbuns favoritos, criar álbuns em formato de coletâneas e gerenciar estes álbuns a partir de diferentes 
+critérios. 
+
+O sistema tem integração com as diferentes plataformas de streaming de música como Spotify, Youtube 
+Music, entre outros. 
+
+O sistema também permitirá a classificação dos álbuns pelos usuários, comentários públicos, 
+e trazer informações sobre a popularidade de cada álbum. Por fim, o sistema deve permitir a reprodução dos álbuns.
+
+
+Membros:
+
+Nome                          - nível        - email
+Maria Clara dos Santos Furini - Nível Júnior - claraafurinii@gmail.com               - 19 99802-8206
+Murilo Silva Vargas           - nível Júnior - murilov@alunos.utfpr.edu.br           - 14 99677-3529
+Carlos Fernando dos Santos    - nível Sênior - carlossantos@alunos.utfpr.edu.br      - 18 99779-8490
+André Faria de Souza          - nivel júnior - andrefariasouza@alunos.utfpr.edu.br   - 43 99674-0502
+Bruno Santos Corrêa           - nível júnior - correab@alunos.utfpr.edu.br           - 43 99135-8181
+Thayrine Santos Costa         - nível júnior - thayrinecosta@alunos.utfpr.edu.br	 - 43 99813-7220
+Beatriz Bonametti             - nível Júnior - bonametti@alunos.utfpr.edu.br         - 14 99712-4889
+Gabriel Hideki Tutia          - nível junior - gabrieltutia@alunos.utfpr.edu.br      - 18 98104-0121
+
