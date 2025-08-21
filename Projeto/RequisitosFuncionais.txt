@@ -1,8 +1,56 @@
-Requisitos funcionais
+Atividade de Requisitos
 
 1 - Lista com o nome, RA e email dos integrantes da equipe
 2 - Título e uma breve descrição do projeto
 3 - Lista de requisitos funcionais previstos para o sistema
 
-Observação: A nota final do projeto será dada pelas entregas propostas, resultado do projeto e apresentação final. 
-Esta já é uma atividade avaliativa, portanto, envie apenas o que foi solicitado, da maneira que foi solicitado e no prazo solicitado.
+---
+
+Lista dos Membros:
+
+André Faria de Souza          - 2101106 - andrefariasouza@alunos.utfpr.edu.br
+Beatriz Bonametti             - 2647940 - bonametti@alunos.utfpr.edu.br
+Bruno Santos Corrêa           - 2601346 - correab@alunos.utfpr.edu.br
+Carlos Fernando dos Santos    - 1962684 - carlossantos@alunos.utfpr.edu.br
+Gabriel Hideki Tutia          - 2647982 - gabrieltutia@alunos.utfpr.edu.br
+Maria Clara dos Santos Furini - 2144093 - claraafurinii@gmail.com
+Murilo Silva Vargas           - 2346257 - murilov@alunos.utfpr.edu.br
+Thayrine Santos Costa         - 2410940 - thayrinecosta@alunos.utfpr.edu.br
+
+---
+
+Título: Agregador Musical
+
+Descrição: Uma aplicação que organiza e integra álbuns musicais de diferentes plataformas de streaming.
+
+---
+
+Requisitos Funcionais:
+
+RF01 – Organização de Álbuns
+O sistema deve permitir ao usuário organizar músicas com base na ideia de álbuns.
+
+RF02 – Seleção de Álbuns Favoritos
+O sistema deve permitir que os usuários escolham e marquem seus álbuns favoritos.
+
+RF03 – Criação de Coletâneas
+O sistema deve permitir que os usuários criem novos álbuns em formato de coletâneas personalizadas.
+
+RF04 – Gerenciamento de Álbuns
+O sistema deve permitir que os usuários gerenciem seus álbuns e coletâneas de acordo com diferentes critérios (ex.: ordem, categorias definidas pelo usuário).
+
+RF05 – Integração com Plataformas de Streaming
+O sistema deve se integrar com diferentes plataformas de streaming de música (Spotify, YouTube Music, entre outras) para obter e reproduzir os álbuns.
+
+RF06 – Classificação de Álbuns
+O sistema deve permitir que os usuários classifiquem os álbuns (ex.: atribuindo notas ou avaliações).
+
+RF07 – Comentários Públicos
+O sistema deve permitir que os usuários façam comentários públicos sobre os álbuns.
+
+RF08 – Exibição de Popularidade
+O sistema deve exibir informações sobre a popularidade de cada álbum.
+
+RF09 – Reprodução de Álbuns
+O sistema deve permitir a reprodução dos álbuns a partir das plataformas de streaming integradas.
+
