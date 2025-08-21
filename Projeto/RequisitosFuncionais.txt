@@ -1,0 +1,8 @@
+Requisitos funcionais
+
+1 - Lista com o nome, RA e email dos integrantes da equipe
+2 - Título e uma breve descrição do projeto
+3 - Lista de requisitos funcionais previstos para o sistema
+
+Observação: A nota final do projeto será dada pelas entregas propostas, resultado do projeto e apresentação final. 
+Esta já é uma atividade avaliativa, portanto, envie apenas o que foi solicitado, da maneira que foi solicitado e no prazo solicitado.
