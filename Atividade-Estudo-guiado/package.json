@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "node": "^24.6.0"
+  },
+  "name": "atividade-estudo-guiado",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
