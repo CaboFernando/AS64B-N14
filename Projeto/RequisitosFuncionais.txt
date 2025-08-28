@@ -54,3 +54,34 @@ O sistema deve exibir informações sobre a popularidade de cada álbum.
 RF09 – Reprodução de Álbuns
 O sistema deve permitir a reprodução dos álbuns a partir das plataformas de streaming integradas.
 
+RF10 - ??
+
+RF11 – Filtragem de Álbuns
+O sistema deve permitir filtrar os álbuns por critérios como gênero musical, artista, ano de lançamento ou popularidade.
+
+RF12 – Ordenação de Resultados
+O sistema deve permitir ordenar os álbuns encontrados por critérios como mais recentes, mais populares ou melhor avaliados.
+
+RF13 – Detalhamento de Álbuns
+O sistema deve exibir informações detalhadas de cada álbum, incluindo capa, lista de músicas, artistas participantes e ano de lançamento.
+
+RF14 – Histórico de Reprodução
+O sistema deve manter um histórico dos álbuns reproduzidos pelo usuário.
+
+RF15 – Compartilhamento de Álbuns
+O sistema deve permitir que os usuários compartilhem álbuns e coletâneas em redes sociais ou por link.
+
+RF16 – Criação de Playlists Dinâmicas
+O sistema deve permitir que o usuário gere playlists automáticas baseadas em critérios, como “mais ouvidas” ou “recomendadas”.
+
+RF17 – Recomendações Personalizadas
+O sistema deve sugerir álbuns e coletâneas ao usuário com base no histórico de uso e preferências.
+
+RF18 – Curtidas em Comentários
+O sistema deve permitir que os usuários curtam ou avaliem os comentários públicos feitos em álbuns.
+
+RF19 – Notificações de Atualizações
+O sistema deve notificar os usuários quando novos álbuns ou músicas forem adicionados em artistas que eles seguem.
+
+RF20 – Gerenciamento de Perfil do Usuário
+O sistema deve permitir que os usuários editem informações básicas de perfil (nome, foto, preferências musicais).
