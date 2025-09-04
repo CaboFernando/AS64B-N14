@@ -1,0 +1,31 @@
+Padrões de Projetos servem para solucionar problemas específicos
+
+
+
+- Criação (criação de objetos)
+    - Singleton (Acesso global e Garantir que só tenha uma instância)
+    - Prototype (Permitir copiar objeitos existentes sem gerar dependências da classe)
+    - Builder (Permite a construção de objetos complexos passo a passo)
+    - Factory Method 
+    - Abstract Factory
+
+- Estrutural (composição de classes e objetos)
+    - Adapter
+    - Bridge
+    - Composite
+    - Decorate
+    - Facede
+    - Flyweight
+    - Proxy
+
+- Comportamental (interação e responsabilidade de classes e objetos)
+    - Chain of Responsability
+    - Command
+    - Iterator
+    - Mediator
+    - Memento
+    - Observer
+    - State
+    - Strategy
+    - Tempiate Method
+    - Visitor
