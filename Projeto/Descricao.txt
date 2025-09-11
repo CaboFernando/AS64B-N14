@@ -27,3 +27,32 @@ Discord: https://discord.com/channels/1407529731355705466/1407529735235305627
 Documentação: https://docs.google.com/document/d/1twtnV5JKNDYr3Uhci6ZBs8-i71ArJIKSpoYos_U4DAE/edit?usp=drivesdk
 
 
+pessoal, requisitos extras: Gerenciamento de Músicas, Artistas e Gêneros
+
+RF21 – Gerenciamento de Músicas: O sistema deve permitir o cadastro, edição e exclusão de músicas individuais associadas a álbuns.
+
+RF22 – Gerenciamento de Artistas: O sistema deve permitir o filtro de albuns e musicas por artiastas
+
+RF23 – Gerenciamento de Gêneros: O sistema deve permitir o cadastro, edição e exclusão de gêneros musicais.
+
+Seguimento de Artistas
+
+RF24 – Seguir Artistas: O sistema deve permitir que o usuário siga ou deixe de seguir artistas para receber atualizações.
+
+RF25 – Notificações de Artistas Seguidos: O sistema deve notificar o usuário sobre novos lançamentos ou eventos de artistas seguidos.
+
+Autenticação e Acesso
+
+RF26 – Cadastro de Usuário: O sistema deve permitir que novos usuários criem uma conta informando nome, e-mail e senha.
+
+RF27 – Login de Usuário: O sistema deve permitir que os usuários façam login com e-mail e senha cadastrados.
+
+RF28 – Recuperação de Senha: O sistema deve permitir que o usuário recupere a senha por e-mail em caso de esquecimento.
+
+RF29 – Login Social (opcional): O sistema pode permitir login via contas de terceiros (Google, Facebook, etc.).
+
+RF30 – Logout: O sistema deve permitir que o usuário encerre a sessão de forma segura.
+
+oq acham?
+
+
