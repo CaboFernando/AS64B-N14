@@ -54,7 +54,7 @@ O sistema deve exibir informações sobre a popularidade de cada álbum.
 RF09 – Reprodução de Álbuns
 O sistema deve permitir a reprodução dos álbuns a partir das plataformas de streaming integradas.
 
-RF10 - ??
+RF10 -  Busca de Álbuns e Músicas: O sistema deve permitir que os usuários pesquisem álbuns e músicas por nome, artista, gênero ou palavra-chave.
 
 RF11 – Filtragem de Álbuns
 O sistema deve permitir filtrar os álbuns por critérios como gênero musical, artista, ano de lançamento ou popularidade.
