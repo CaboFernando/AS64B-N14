@@ -17,16 +17,25 @@
 ### 1. Introdução  
 
 #### 1.1 Objetivo  
-Este documento descreve os requisitos funcionais do sistema **Agregador Musical**, uma aplicação que organiza e integra álbuns musicais de diferentes plataformas de streaming.  
-O objetivo é permitir ao usuário **criar, gerenciar, classificar e interagir com conteúdos musicais** em um ambiente unificado.  
+Este documento descreve os requisitos funcionais do sistema **Agregador Musical**, uma aplicação web que organiza, recomenda e integra álbuns, músicas e artistas de diferentes plataformas de streaming musical.
+
+O objetivo principal é oferecer ao usuário um ambiente unificado e interativo onde ele possa **explorar, criar, gerenciar, avaliar e compartilhar conteúdos musicais**, com base em suas preferências, histórico de uso e conexões com plataformas externas.
 
 #### 1.2 Escopo  
-O sistema permitirá que os usuários:  
-- Consultem e selecionem álbuns de diferentes serviços de streaming (Spotify, YouTube Music, etc.);  
-- Criem coletâneas personalizadas a partir de músicas e álbuns existentes;  
-- Classifiquem e comentem publicamente sobre os álbuns;  
-- Consultem informações de popularidade de álbuns e coletâneas;  
-- Reproduzam músicas e álbuns diretamente pelo sistema via integração com as plataformas suportadas.  
+O sistema permitirá que os usuários:
+
+* Consultem álbuns e músicas provenientes de diferentes serviços de streaming (como Spotify, YouTube Music, entre outros);
+* Criem e gerenciem coletâneas e playlists personalizadas com base em músicas e álbuns disponíveis;
+* Marquem álbuns como favoritos e organizem seu conteúdo musical por categorias personalizadas;
+* Classifiquem álbuns com notas ou avaliações e comentem publicamente sobre eles, incluindo curtir comentários de outros usuários;
+* Visualizem informações detalhadas de álbuns, incluindo capa, faixas, artistas participantes e popularidade;
+* Acessem sugestões personalizadas com base em preferências e histórico de reprodução;
+* Filtrarem e ordenarem os resultados por critérios como gênero, artista, ano, popularidade ou avaliação;
+* Reproduzam músicas e álbuns diretamente pelo sistema, utilizando a integração com plataformas externas;
+* Compartilhem álbuns e coletâneas em redes sociais ou via link;
+* Sigam artistas e recebam notificações de novos lançamentos ou eventos;
+* Editem seu perfil de usuário e ajustem preferências musicais;
+* Realizem cadastro, login (incluindo login social), recuperação de senha e logout com segurança.
 
 ---
 
@@ -135,14 +144,96 @@ O sistema permitirá que os usuários:
 
 ### 4. Critérios de Aceitação  
 
-- **CA01 – Organização de Álbuns:** O usuário deve conseguir visualizar seus álbuns em uma interface estruturada, diferenciando favoritos, coletâneas e demais álbuns.  
-- **CA02 – Seleção de Favoritos:** Ao marcar um álbum como favorito, este deve aparecer em uma seção dedicada.  
-- **CA03 – Criação de Coletâneas:** O usuário deve conseguir criar uma coletânea personalizada, inserindo álbuns ou músicas já disponíveis.  
-- **CA04 – Gerenciamento de Álbuns:** O sistema deve permitir reorganizar, renomear ou excluir álbuns e coletâneas de acordo com os critérios definidos pelo usuário.  
-- **CA05 – Integração com Plataformas:** O sistema deve exibir álbuns provenientes de pelo menos uma plataforma de streaming (ex.: Spotify ou YouTube Music) e possibilitar sua reprodução.  
-- **CA06 – Classificação de Álbuns:** O usuário deve conseguir atribuir uma nota ou avaliação a um álbum, e essa avaliação deve ser registrada no sistema.  
-- **CA07 – Comentários Públicos:** O sistema deve permitir que os comentários feitos por um usuário sejam exibidos publicamente para os demais.  
+* **CA01 – Organização de Álbuns**
+  O usuário deve conseguir visualizar seus álbuns em uma interface estruturada, diferenciando favoritos, coletâneas e demais álbuns.
+
+* **CA02 – Seleção de Favoritos**
+  Ao marcar um álbum como favorito, este deve aparecer em uma seção dedicada.
+
+* **CA03 – Criação de Coletâneas**
+  O usuário deve conseguir criar uma coletânea personalizada, inserindo álbuns ou músicas já disponíveis.
+
+* **CA04 – Gerenciamento de Álbuns**
+  O sistema deve permitir reorganizar, renomear ou excluir álbuns e coletâneas de acordo com os critérios definidos pelo usuário.
+
+* **CA05 – Integração com Plataformas**
+  O sistema deve exibir álbuns provenientes de pelo menos uma plataforma de streaming (ex.: Spotify ou YouTube Music) e possibilitar sua reprodução.
+
+* **CA06 – Classificação de Álbuns**
+  O usuário deve conseguir atribuir uma nota ou avaliação a um álbum, e essa avaliação deve ser registrada no sistema.
+
+* **CA07 – Comentários Públicos**
+  O sistema deve permitir que os comentários feitos por um usuário sejam exibidos publicamente para os demais.
+
+* **CA08 – Exibição de Popularidade**
+  O sistema deve exibir métricas de popularidade de álbuns (ex.: número de reproduções, curtidas ou avaliações).
+
+* **CA09 – Reprodução de Álbuns**
+  O usuário deve conseguir reproduzir álbuns diretamente da interface, via integração com serviços externos.
+
+* **CA10 – Busca de Álbuns e Músicas**
+  A busca deve retornar resultados ao pesquisar por nome, artista, gênero ou palavra-chave.
+
+* **CA11 – Filtragem de Álbuns**
+  O usuário deve conseguir aplicar filtros como gênero, artista, ano ou popularidade nos álbuns listados.
+
+* **CA12 – Ordenação de Resultados**
+  Os resultados devem poder ser ordenados por mais recentes, mais populares ou melhor avaliados.
+
+* **CA13 – Detalhamento de Álbuns**
+  A página de detalhes de um álbum deve incluir capa, lista de músicas, artistas e ano de lançamento.
+
+* **CA14 – Histórico de Reprodução**
+  O sistema deve manter um registro acessível ao usuário com os álbuns reproduzidos anteriormente.
+
+* **CA15 – Compartilhamento de Álbuns**
+  O usuário deve conseguir compartilhar álbuns ou coletâneas via link ou redes sociais.
+
+* **CA16 – Criação de Playlists Dinâmicas**
+  O sistema deve gerar playlists automaticamente com base em critérios como “mais ouvidas” ou “recomendadas”.
+
+* **CA17 – Recomendações Personalizadas**
+  O sistema deve sugerir álbuns com base nas interações e preferências do usuário.
+
+* **CA18 – Curtidas em Comentários**
+  Os comentários públicos devem permitir reações, como curtidas, visíveis a todos os usuários.
+
+* **CA19 – Notificações de Atualizações**
+  O usuário deve ser notificado ao surgir novo conteúdo de artistas que segue.
+
+* **CA20 – Gerenciamento de Perfil do Usuário**
+  O usuário deve poder editar nome, foto de perfil e preferências musicais.
+
+* **CA21 – Gerenciamento de Músicas**
+  O sistema deve permitir adicionar, editar e excluir músicas de álbuns criados pelo usuário.
+
+* **CA22 – Gerenciamento de Artistas**
+  O usuário deve poder filtrar músicas e álbuns com base nos artistas associados.
+
+* **CA23 – Gerenciamento de Gêneros**
+  O sistema deve permitir adicionar, editar e excluir gêneros musicais utilizados na organização de conteúdo.
+
+* **CA24 – Seguir Artistas**
+  O usuário deve conseguir seguir ou deixar de seguir artistas por meio de botão de ação.
+
+* **CA25 – Notificações de Artistas Seguidos**
+  O sistema deve notificar o usuário sempre que houver novidades de artistas seguidos.
+
+* **CA26 – Cadastro de Usuário**
+  O usuário deve conseguir criar uma conta ao informar nome, e-mail e senha válidos.
+
+* **CA27 – Login de Usuário**
+  O sistema deve permitir o login com e-mail e senha cadastrados previamente.
+
+* **CA28 – Recuperação de Senha**
+  O sistema deve enviar um link de redefinição de senha ao e-mail do usuário, quando solicitado.
+
+* **CA29 – Login Social (opcional)**
+  O sistema deve permitir autenticação por serviços como Google ou Facebook, se disponível.
+
+* **CA30 – Logout**
+  O sistema deve disponibilizar uma opção para o usuário encerrar sua sessão com segurança.
 
 ---
 
-📖 **Status:** Documento inicial de especificação de requisitos funcionais para o sistema *Agregador Musical*.  
+📖 **Status:** Elaboração do diagrama de classes do projeto, e inciando escolhas de padrões de projetos a serem utilizados.  
