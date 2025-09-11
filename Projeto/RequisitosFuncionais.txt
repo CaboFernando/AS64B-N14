@@ -27,61 +27,92 @@ Descrição: Uma aplicação que organiza e integra álbuns musicais de diferent
 
 Requisitos Funcionais:
 
-RF01 – Organização de Álbuns
+RF01 – Organização de Álbuns:
 O sistema deve permitir ao usuário organizar músicas com base na ideia de álbuns.
 
-RF02 – Seleção de Álbuns Favoritos
+RF02 – Seleção de Álbuns Favoritos:
 O sistema deve permitir que os usuários escolham e marquem seus álbuns favoritos.
 
-RF03 – Criação de Coletâneas
+RF03 – Criação de Coletâneas:
 O sistema deve permitir que os usuários criem novos álbuns em formato de coletâneas personalizadas.
 
-RF04 – Gerenciamento de Álbuns
+RF04 – Gerenciamento de Álbuns:
 O sistema deve permitir que os usuários gerenciem seus álbuns e coletâneas de acordo com diferentes critérios (ex.: ordem, categorias definidas pelo usuário).
 
-RF05 – Integração com Plataformas de Streaming
+RF05 – Integração com Plataformas de Streaming:
 O sistema deve se integrar com diferentes plataformas de streaming de música (Spotify, YouTube Music, entre outras) para obter e reproduzir os álbuns.
 
-RF06 – Classificação de Álbuns
+RF06 – Classificação de Álbuns:
 O sistema deve permitir que os usuários classifiquem os álbuns (ex.: atribuindo notas ou avaliações).
 
-RF07 – Comentários Públicos
+RF07 – Comentários Públicos:
 O sistema deve permitir que os usuários façam comentários públicos sobre os álbuns.
 
-RF08 – Exibição de Popularidade
+RF08 – Exibição de Popularidade:
 O sistema deve exibir informações sobre a popularidade de cada álbum.
 
-RF09 – Reprodução de Álbuns
+RF09 – Reprodução de Álbuns:
 O sistema deve permitir a reprodução dos álbuns a partir das plataformas de streaming integradas.
 
-RF10 -  Busca de Álbuns e Músicas: O sistema deve permitir que os usuários pesquisem álbuns e músicas por nome, artista, gênero ou palavra-chave.
+RF10 – Busca de Álbuns e Músicas: 
+O sistema deve permitir que os usuários pesquisem álbuns e músicas por nome, artista, gênero ou palavra-chave.
 
-RF11 – Filtragem de Álbuns
+RF11 – Filtragem de Álbuns:
 O sistema deve permitir filtrar os álbuns por critérios como gênero musical, artista, ano de lançamento ou popularidade.
 
-RF12 – Ordenação de Resultados
+RF12 – Ordenação de Resultados:
 O sistema deve permitir ordenar os álbuns encontrados por critérios como mais recentes, mais populares ou melhor avaliados.
 
-RF13 – Detalhamento de Álbuns
+RF13 – Detalhamento de Álbuns:
 O sistema deve exibir informações detalhadas de cada álbum, incluindo capa, lista de músicas, artistas participantes e ano de lançamento.
 
-RF14 – Histórico de Reprodução
+RF14 – Histórico de Reprodução:
 O sistema deve manter um histórico dos álbuns reproduzidos pelo usuário.
 
-RF15 – Compartilhamento de Álbuns
+RF15 – Compartilhamento de Álbuns:
 O sistema deve permitir que os usuários compartilhem álbuns e coletâneas em redes sociais ou por link.
 
-RF16 – Criação de Playlists Dinâmicas
+RF16 – Criação de Playlists Dinâmicas:
 O sistema deve permitir que o usuário gere playlists automáticas baseadas em critérios, como “mais ouvidas” ou “recomendadas”.
 
-RF17 – Recomendações Personalizadas
+RF17 – Recomendações Personalizadas:
 O sistema deve sugerir álbuns e coletâneas ao usuário com base no histórico de uso e preferências.
 
-RF18 – Curtidas em Comentários
+RF18 – Curtidas em Comentários:
 O sistema deve permitir que os usuários curtam ou avaliem os comentários públicos feitos em álbuns.
 
-RF19 – Notificações de Atualizações
+RF19 – Notificações de Atualizações:
 O sistema deve notificar os usuários quando novos álbuns ou músicas forem adicionados em artistas que eles seguem.
 
-RF20 – Gerenciamento de Perfil do Usuário
+RF20 – Gerenciamento de Perfil do Usuário:
 O sistema deve permitir que os usuários editem informações básicas de perfil (nome, foto, preferências musicais).
+
+RF21 – Gerenciamento de Músicas: 
+O sistema deve permitir o cadastro, edição e exclusão de músicas individuais associadas a álbuns.
+
+RF22 – Gerenciamento de Artistas: 
+O sistema deve permitir o filtro de albuns e musicas por artiastas
+
+RF23 – Gerenciamento de Gêneros: 
+O sistema deve permitir o cadastro, edição e exclusão de gêneros musicais.
+
+RF24 – Seguir Artistas: 
+O sistema deve permitir que o usuário siga ou deixe de seguir artistas para receber atualizações.
+
+RF25 – Notificações de Artistas Seguidos: 
+O sistema deve notificar o usuário sobre novos lançamentos ou eventos de artistas seguidos.
+
+RF26 – Cadastro de Usuário: 
+O sistema deve permitir que novos usuários criem uma conta informando nome, e-mail e senha.
+
+RF27 – Login de Usuário: 
+O sistema deve permitir que os usuários façam login com e-mail e senha cadastrados.
+
+RF28 – Recuperação de Senha: 
+O sistema deve permitir que o usuário recupere a senha por e-mail em caso de esquecimento.
+
+RF29 – Login Social (opcional): 
+O sistema pode permitir login via contas de terceiros (Google, Facebook, etc.).
+
+RF30 – Logout: 
+O sistema deve permitir que o usuário encerre a sessão de forma segura.
