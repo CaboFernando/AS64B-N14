@@ -1,0 +1,11 @@
+Faltei na aula
+
+O professor apresentou os padrões de projeto estruturais:
+	
+- adapter	
+- bridge	
+- composite	
+- decorator	
+- facade	
+- flyweight	
+- proxy
