@@ -1,0 +1,101 @@
+1) Proponha um exemplo conceitual inédito para cada um dos 7 padrões de projeto estruturais, descrevendo como o padrão 
+pode ser explicado em cada exemplo proposto.
+
+- 1. Adapter	
+- 2. Bridge	
+- 3. Composite	
+- 4. Decorator	
+- 5. Facade	
+- 6. Flyweight	
+- 7. Proxy
+
+1. Adapter – “Tradutor de Idiomas para Robôs Domésticos”
+
+    Exemplo:
+        Uma empresa de robôs domésticos que fabrica modelos com comandos de voz em inglês. 
+        Um cliente no Brasil compra esse robô, mas quer dar comandos em português.     
+
+    Como usar o Adapter:
+        Em vez de reprogramar todo o robô, podemos usar o padrão Adapter para interceptar o comando po voz.
+        O Adapter escuta comandos em português e os traduz para os equivalentes em inglês que o robô entende.
+        Assim o padrão é aplicado, parmanecendo a interface original do robô continua sem alterações, mas agora ele pode 
+        ser usado com outra linguagem.
+
+
+2. Bridge – “Sistema de Controle de Iluminação e Energia por Módulos”
+
+    Exemplo: 
+        Um prédio inteligente quer controlar tanto o tipo de dispositivo (luz LED, lâmpada fluorescente, ar-condicionado) 
+        quanto a forma de controle (via app, por voz, ou por sensor de presença).
+
+    Como usar o Bridge:
+        Separarmos a abstração (controle de dispositivos) da implementação (forma de controle).
+        Podemos combinar qualquer tipo de dispositivo com qualquer forma de controle sem explosão de subclasses.
+        Assim o padrão é aplicado, desacoplando uma abstração da sua implementação, permitindo que variem 
+        independentemente.
+
+
+3. Composite – “Catálogo de Cursos e Subcursos de uma Universidade”
+
+    Exemplo: 
+        Uma universidade oferece cursos. Alguns são simples (como "Inglês Básico"), e outros são compostos (como "Curso 
+        de Verão", que inclui "Inglês", "Matemática", "Empreendedorismo", etc.).
+
+    Como usar o Composite:
+        Tanto cursos simples quanto compostos podem ser tratados da mesma forma (por exemplo, calcular carga horária total).
+        Os cursos compostos contêm uma coleção de outros cursos, simples ou compostos.
+        Assim o padrão é aplicado,compondo objetos em estruturas de árvore para representar hierarquias parte-todo, 
+        permitindo tratar objetos individuais e composições de maneira uniforme.
+
+
+ 4. Decorator – “Sistema de Personalização de Avatares em Jogo Online”
+
+    Exemplo: 
+        Um jogador começa com um avatar básico. Depois pode adicionar roupas, chapéus, acessórios, efeitos visuais, etc. 
+        Cada novo item altera visualmente o avatar e pode mudar suas habilidades.
+
+    Como usar o Decorator:
+        Cada item novo é um decorador que adiciona funcionalidade visual ou comportamental ao avatar original, sem 
+        modificar sua classe base.
+        Assim o padrão é aplicado, adicionando responsabilidades a um objeto dinamicamente, de forma flexível, sem 
+        alterar a estrutura original.
+
+
+ 5. Facade – “Painel de Controle de Estúdio de Gravação”
+
+    Exemplo: 
+        Um estúdio de gravação possui diversos sistemas complexos: mixadores, sintetizadores, equalizadores, reverb, etc. 
+        Um músico iniciante quer só gravar e aplicar um preset simples.
+
+    Como usar o Facade:
+        Um painel de controle (fachada) fornece botões simples como "Gravar", "Adicionar Reverb", "Mixagem Automática", 
+        escondendo a complexidade interna dos sistemas.
+        Assim o padrão é aplicado, fornecendo uma interface simplificada para um subsistema complexo.
+
+
+ 6. Flyweight – “Sistema de Desenho com Emojis em Rede Social”
+
+    Exemplo: 
+        Em uma rede social, milhões de mensagens usam os mesmos emojis. Criar uma nova instância do objeto emoji para 
+        cada uso consumiria muita memória.
+
+    Como usar o Flyweight:
+        Emojis são armazenados como objetos compartilhados (intrínsecos), e cada uso individual apenas adiciona posição 
+        e contexto (extrínsecos), evitando duplicação.
+        Assim o padrão é aplicado, usando o compartilhamento para suportar eficientemente grandes quantidades de objetos 
+        semelhantes.
+
+
+ 7. Proxy – “Cofre Virtual com Verificação de Permissão”
+
+    Exemplo: 
+        Um sistema de cofre digital armazena documentos sensíveis. Um Proxy verifica se o usuário tem permissão antes 
+        de liberar o acesso ao conteúdo.
+
+    Como usar o Proxy:
+        O proxy atua como intermediário entre o usuário e o cofre real, podendo negar, logar ou atrasar acessos.
+        Assim o padrão é aplicado, fornecendo um substituto ou representante de outro objeto para controlar o acesso a 
+        ele.
+
+
+
