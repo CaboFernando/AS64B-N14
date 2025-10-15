@@ -1,0 +1,26 @@
+Padrões comportamentais:
+	
+- Chain of Responsability -> Permite que você passe pedidos por uma corrente de handlers.
+Ao receber um pedido, cada handler decide se processa o
+pedido ou o passa adiante para o próximo handler na corrente.
+
+- Command -> Transforma um comando em uma execução independente que contém
+toda a informação sobre o comando.
+
+- Iterator -> Permite percorrer elementos de uma coleção sem expor as
+representações dessa coleção (lista, pilha, árvore, etc.).
+
+- Mediator -> Permite reduzir as dependências entre objetos, restringindo
+comunicações diretas entre objetos e forçando-os a colaborar
+apenas através do objeto mediador.
+
+- Observer -> Permite definir um mecanismo de assinatura para notificar
+múltiplos objetos sobre quaisquer eventos que aconteçam com
+o objeto que eles estão observando.
+
+- State	-> Permite que um objeto altere seu comportamento quando seu
+estado interno muda. Parece como se o objeto mudasse de
+classe.
+
+- Strategy -> Permite que se defina uma família de algoritmos, coloque-os
+em classes separadas, e faça os objetos deles intercambiáveis.
