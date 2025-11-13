@@ -1,0 +1,4 @@
+Características da arquitetura
+(requisito não funcional)
+
+
