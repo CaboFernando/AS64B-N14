@@ -1,0 +1,23 @@
+ 1-D errado -> resposta certa é a B
+ 2-D certo
+ 3-D errado -> resposta certa é a B
+ 4-B certo
+ 5-A certo
+ 6-C certo
+ 7-B certo
+ 8-D certo
+ 9-D errado -> resposta certa é a C
+10-B certo
+11-C errado -> resposta certa é a A
+12-B errado -> resposta certa é a D
+13-B certo
+14-A certo
+15-C certo
+16-D certo
+17-C certo
+18-B certo
+19-D certo
+20-B certo
+21-D certo
+
+Nota: 7.6
